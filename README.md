@@ -15,7 +15,7 @@ Many people aim to improve their athletic performance, but:
 * Mistakes in form can lead to injuries
 * Progress may stall without proper adjustments
 
-This problem is common among both beginners and advanced athletes. My personal motivation is to make coaching support more widely available. Not everyone can afford a personal trainer — but many still want to train safely and efficiently.
+This problem is common among both beginners and advanced athletes. My personal motivation is to make coaching support more widely available. Not everyone can afford a personal trainer but many still want to train safely and efficiently.
 
 ## How is it used?
 
