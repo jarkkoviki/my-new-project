@@ -43,8 +43,4 @@ AI methods:
 * Recommendation algorithm (e.g., k-nearest neighbors or cosine similarity)
 * Valence–Arousal model to map emotions to musical attributes
 
-Example scoring function:
-```python
-def mood_score(track, user_mood_vector):
-    return np.dot(track['features'], user_mood_vector)
 
