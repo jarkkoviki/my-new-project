@@ -11,7 +11,7 @@ MoodMusic AI is an application that recommends music based on the user's mood. T
 
 ## Background
 
-People often choose music based on how they feel — but finding the right music can take time. Music has been shown to influence emotional states, stress levels, and concentration. This project aims to make it easier to find music that matches or improves mood.
+People often choose music based on how they feel but finding the right music can take time. Music has been shown to influence emotional states, stress levels, and concentration. This project aims to make it easier to find music that matches or improves mood.
 
 This project helps to:
 * find music that supports the current emotional state
@@ -42,4 +42,9 @@ AI methods:
 * Sentiment analysis for text-based mood detection
 * Recommendation algorithm (e.g., k-nearest neighbors or cosine similarity)
 * Valence–Arousal model to map emotions to musical attributes
+
+Example scoring function:
+```python
+def mood_score(track, user_mood_vector):
+    return np.dot(track['features'], user_mood_vector)
 
