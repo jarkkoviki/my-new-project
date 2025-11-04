@@ -1,46 +1,48 @@
 # my-new-project
 Building Ai course project
-
-# MoodMusic AI
+# SmartTrainer AI
 
 Final project for the Building AI course
 
 ## Summary
 
-MoodMusic AI is an application that recommends music based on the user's mood. The system analyzes text, facial expression, or a selected emotional state and suggests a suitable playlist. The goal is to support emotional well-being and help regulate mood through music.
+SmartTrainer AI is an application that analyzes an athlete's training performance and provides personalized suggestions for improvement. The goal is to help users train more effectively, avoid injuries, and track progress in a clear and motivating way.
 
 ## Background
 
-People often choose music based on how they feel but finding the right music can take time. Music has been shown to influence emotional states, stress levels, and concentration. This project aims to make it easier to find music that matches or improves mood.
+Many people aim to improve their athletic performance, but:
+* It’s difficult to know whether you're training correctly
+* Mistakes in form can lead to injuries
+* Progress may stall without proper adjustments
 
-This project helps to:
-* find music that supports the current emotional state
-* reduce stress and process negative emotions
-* increase motivation, focus, and relaxation
-
-Personal motivation: I want to combine mental well-being and technology in a practical way. Music has always been an important source of emotional support for me.
+This problem is common among both beginners and advanced athletes. My personal motivation is to make coaching support more widely available. Not everyone can afford a personal trainer — but many still want to train safely and efficiently.
 
 ## How is it used?
 
-The user opens the app and provides information about their current mood by:
-* writing a short message,
-* selecting an emotion from a list, or
-* (optionally) allowing the camera to analyze their facial expression.
+SmartTrainer AI can be used during or after a workout:
+1. The user records their movement using a phone or wearable tracker.
+2. The app analyzes the movement pattern using pose estimation.
+3. Feedback is given in simple, actionable form (e.g., “lower your shoulders”, “increase step tempo”).
+4. The app suggests improvements and progression plans based on goals.
 
-The app then recommends a personalized playlist via the Spotify API.
+Example use cases:
+* Gym strength training
+* Running technique feedback
+* Rehabilitation tracking
+* Sports skill development (e.g., tennis swing, football kicking form)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+<img src="https://training.fit/wp-content/uploads/2020/03/kniebeugen-langhantel-800x448.png" width="400">
 
 ## Data sources and AI methods
 
-Data sources:
-* Spotify audio feature data (tempo, valence, energy, danceability, etc.)
-* User-provided mood ratings
-* (optional) Emotion recognition model from camera input
+**Data sources:**
+* Motion capture / video tracking using phone camera
+* Wearable fitness tracker data (heart rate, cadence, acceleration)
+* User input: goals, training history
 
-AI methods:
-* Sentiment analysis for text-based mood detection
-* Recommendation algorithm (e.g., k-nearest neighbors or cosine similarity)
-* Valence–Arousal model to map emotions to musical attributes
+**AI methods:**
+* Pose estimation (e.g., MediaPipe, OpenPose)
+* Movement classification & form detection (pattern recognition)
+* Progression recommendations using simple machine learning regression models
 
 
